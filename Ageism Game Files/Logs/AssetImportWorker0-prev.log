@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/release' branch; Version is '2021.3.12f1 (8af3c3e441b1) revision 9106371'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 8033 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16221 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ D:/Daddy/Documents/GitHub/Ageism/Ageism Game Files
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62434
+59087
 Successfully changed project path to: D:/Daddy/Documents/GitHub/Ageism/Ageism Game Files
 D:/Daddy/Documents/GitHub/Ageism/Ageism Game Files
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Daddy/Documents/GitHub/Ageism/Ageism Game Files
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 64.29 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 80.44 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -58,252 +58,49 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
     Vendor:   NVIDIA
     VRAM:     8038 MB
-    Driver:   31.0.15.2698
+    Driver:   31.0.15.2756
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005007 seconds.
+Registered in 0.003270 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 62.38 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 74.19 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.454 seconds
+- Completed reload, in  0.515 seconds
 Domain Reload Profiling:
-	ReloadAssembly (454ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (515ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (325ms)
-			LoadAssemblies (52ms)
+		EndReloadAssembly (378ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (69ms)
+			SetupTypeCache (67ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (198ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (248ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (62ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (97ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006604 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Daddy\Documents\GitHub\Ageism\Ageism Game Files\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Daddy\Documents\GitHub\Ageism\Ageism Game Files\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 70.31 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.827 seconds
-Domain Reload Profiling:
-	ReloadAssembly (828ms)
-		BeginReloadAssembly (77ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (667ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (160ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (362ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (171ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4043 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (185.5 KB). Loaded Objects now: 4497.
-Memory consumption went from 150.9 MB to 150.7 MB.
-Total: 2.593700 ms (FindLiveObjects: 0.193900 ms CreateObjectMapping: 0.103900 ms MarkObjects: 2.191800 ms  DeleteObjects: 0.103400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 16258.116516 seconds.
-  path: Assets/Tarodev 2D Controller/Prefabs
-  artifactKey: Guid(aaf8cde26c4f88044a1146101a103f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tarodev 2D Controller/Prefabs using Guid(aaf8cde26c4f88044a1146101a103f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f531929f61faba0dcebf6ee6d52a13') in 0.025777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tarodev 2D Controller/Prefabs/Player.prefab
-  artifactKey: Guid(f70c62151281a3349a1456d2cbfe6fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tarodev 2D Controller/Prefabs/Player.prefab using Guid(f70c62151281a3349a1456d2cbfe6fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5673a4c38794a02be31c5a2830b9275d') in 0.142879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Tarodev 2D Controller/Input
-  artifactKey: Guid(f54e492b10f6e11439ccc69fe77cdda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tarodev 2D Controller/Input using Guid(f54e492b10f6e11439ccc69fe77cdda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8e7082b21d71a89fc8c33c9f05cd7c') in 0.004635 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006055 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Daddy\Documents\GitHub\Ageism\Ageism Game Files\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Daddy\Documents\GitHub\Ageism\Ageism Game Files\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.803 seconds
-Domain Reload Profiling:
-	ReloadAssembly (804ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (631ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (187ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (287ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (171ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.70 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4037 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (151.9 KB). Loaded Objects now: 4508.
-Memory consumption went from 155.2 MB to 155.1 MB.
-Total: 2.449200 ms (FindLiveObjects: 0.188000 ms CreateObjectMapping: 0.091600 ms MarkObjects: 2.073100 ms  DeleteObjects: 0.095800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 21.871152 seconds.
-  path: Assets/Tarodev 2D Controller/Stat Presets/Tarodev Stats.asset
-  artifactKey: Guid(8f3e4ac96e9fac84e96172956137e1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tarodev 2D Controller/Stat Presets/Tarodev Stats.asset using Guid(8f3e4ac96e9fac84e96172956137e1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d485cdef382b0d6df92bcae39c7510') in 0.017581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 84.548962 seconds.
-  path: Assets/Tarodev 2D Controller/Stat Presets/Tarodev Stats 1.asset
-  artifactKey: Guid(8964cefa69d6f464ea2ca6a32aa947fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tarodev 2D Controller/Stat Presets/Tarodev Stats 1.asset using Guid(8964cefa69d6f464ea2ca6a32aa947fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5989687466b1493f017900173ddccd02') in 0.004895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tarodev 2D Controller/Stat Presets/Tarodev Stats.asset
-  artifactKey: Guid(8f3e4ac96e9fac84e96172956137e1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tarodev 2D Controller/Stat Presets/Tarodev Stats.asset using Guid(8f3e4ac96e9fac84e96172956137e1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657908434c362848778f1d226040ee53') in 0.002786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.202841 seconds.
-  path: Assets/Tarodev 2D Controller/Prefabs/Player.prefab
-  artifactKey: Guid(f70c62151281a3349a1456d2cbfe6fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tarodev 2D Controller/Prefabs/Player.prefab using Guid(f70c62151281a3349a1456d2cbfe6fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63445d9da093bcfc9ef2f6cb20b45df') in 0.053501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.979414 seconds.
-  path: Assets/Tarodev 2D Controller/Materials/Player.physicsMaterial2D
-  artifactKey: Guid(a081f785d315a2b43966f129ce852878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tarodev 2D Controller/Materials/Player.physicsMaterial2D using Guid(a081f785d315a2b43966f129ce852878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302c308deed8096d08850c32f6dc0789') in 0.002853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tarodev 2D Controller/Materials/RunDust.mat
-  artifactKey: Guid(0867f43889af6db499f5a463524c3095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tarodev 2D Controller/Materials/RunDust.mat using Guid(0867f43889af6db499f5a463524c3095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95d14e356e5fc77f0fc835853219233') in 0.030261 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tarodev 2D Controller/Materials/Trail.mat
-  artifactKey: Guid(e838edadfae42f04ea5f2d8dcd7641af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tarodev 2D Controller/Materials/Trail.mat using Guid(e838edadfae42f04ea5f2d8dcd7641af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7581e9961a1e20bd1edf96efcbed714a') in 0.010256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.693442 seconds.
-  path: Assets/Tarodev 2D Controller/Stat Presets/Circle Stats.asset
-  artifactKey: Guid(8964cefa69d6f464ea2ca6a32aa947fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tarodev 2D Controller/Stat Presets/Circle Stats.asset using Guid(8964cefa69d6f464ea2ca6a32aa947fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82478c27dfd2565a32a8499ce6fc4a28') in 0.005555 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 180.869883 seconds.
-  path: Assets/Tarodev 2D Controller/Sprites/Circle.png
-  artifactKey: Guid(8620bcf7fa769e94fa548c2fc0325ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tarodev 2D Controller/Sprites/Circle.png using Guid(8620bcf7fa769e94fa548c2fc0325ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04db50292df3c0c567fbe4fab21f141') in 0.037474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tarodev 2D Controller/Sprites/Player.png
-  artifactKey: Guid(5707f5ebcf7e8b440bad2a949b2b5aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tarodev 2D Controller/Sprites/Player.png using Guid(5707f5ebcf7e8b440bad2a949b2b5aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d9ddbd6dc46eb2a7f3dd3727d202b6') in 0.044607 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tarodev 2D Controller/Sprites/Square.png
-  artifactKey: Guid(47df184d22987d04c8b6086471e573f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tarodev 2D Controller/Sprites/Square.png using Guid(47df184d22987d04c8b6086471e573f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed35e9369b94fcbdbdf37d2a967c8ee') in 0.011982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tarodev 2D Controller/Sprites/Ladder.png
-  artifactKey: Guid(3b4733bff1f013b4bba5b41149c8c9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tarodev 2D Controller/Sprites/Ladder.png using Guid(3b4733bff1f013b4bba5b41149c8c9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a9f65dd438fb37847af50bc3bd648d') in 0.008765 seconds 
+Registered in 0.008936 seconds.

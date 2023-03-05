@@ -34,5 +34,10 @@ public class playermovement : MonoBehaviour
             Vector2 forwardMovement = new Vector2(movement.x, 0) * moveSpeed * Time.fixedDeltaTime;
             rb.MovePosition(rb.position + forwardMovement);
         }
+        
+    }
+    private void OnMouseDown() 
+    {
+        
     }
 }
